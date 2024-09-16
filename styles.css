@@ -8,12 +8,17 @@ body {
     min-height: 100vh;
     margin: 0;
     background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
 }
 
 h1 {
     font-weight: 800;
     font-size: 150%;
 
+}
+
+.card-text {
+    color: hsl(0, 0%, 42%)
 }
 
 .container {
@@ -27,9 +32,9 @@ h1 {
 .card {
     width: 24rem;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     border-color: black;
-    box-shadow: 5px 5px 0px 0px #000000;
+    box-shadow: 8px 8px 0px 0px #000000;
 }
 .publish-date {
     padding-top: 10px;
@@ -45,14 +50,14 @@ h1 {
 
 .post-tag {
     background-color: hsl(47, 88%, 63%);
-    border-radius: 5px;
+    border-radius: 3px;
     width: 30%;
     justify-content: center;
     text-align: center;
 }
 
 .card-img-top {
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .author {
